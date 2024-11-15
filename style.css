@@ -36,7 +36,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  border-radius: 2px;
+  border-radius: 2rem;
   border: 1px solid #ccc;
 }
 
@@ -399,4 +399,89 @@ img {
 
 .about__details-button:hover {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.gradient {
+  background: linear-gradient(180deg, #fff 0%, #e0f2ff 20%, #b0d4ff 100%);
+  margin-top: 5rem;
+}
+
+.subscription {
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.subscription__title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.subscription__description {
+  margin: 1rem 0 2rem;
+}
+
+.subscription__form {
+  position: relative;
+  background: #fff;
+  display: inline;
+  padding: 0.6rem 0.4rem 0.7rem;
+  border-radius: 2rem;
+}
+
+.subscription__input {
+  padding: 0.4rem;
+  width: 320px;
+  border: none;
+  outline: none;
+}
+
+.subscription__button {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 2rem;
+  background: #a2cff8;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subscription__button:hover {
+  background: #83bff5;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+  margin-top: 4rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__link {
+  transition: all 0.3s ease;
+}
+
+.footer__link:hover {
+  transform: translateX(8px);
+}
+
+.footer__brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer__copyright {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  text-align: center;
 }
