@@ -201,3 +201,67 @@ img {
 .hero-course__button--enroll:hover {
   background: #388e3c;
 }
+
+.separator {
+  display: block;
+  margin: 4rem 0 4rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 0 40px;
+}
+
+.program {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 40px;
+}
+
+.program__image {
+  width: 45%;
+}
+
+.program__image-photo {
+  width: 100%;
+  height: 540px;
+  border-radius: 2rem;
+}
+
+.program__info {
+  width: 55%;
+}
+
+.program__title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.program__description {
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+}
+
+.program__details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.program__label {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.program__duration-list,
+.program__format-list {
+  list-style: none;
+}
+
+.program__duration-item,
+.program__format-item {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
